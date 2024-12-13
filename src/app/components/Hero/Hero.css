@@ -1,0 +1,25 @@
+.hero{
+    height: 100vh;
+    background-image: url("/images/hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 8rem;
+    position: relative;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+.hero .heading .title{
+font-size: 3rem;
+}
+.preview{
+    position: absolute;
+    bottom: 50;
+    right: 50;
+}
