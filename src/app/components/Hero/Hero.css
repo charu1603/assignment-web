@@ -18,9 +18,9 @@
 .hero .heading .title{
 font-size: 3rem;
 }
-.preview{
+.preview img{
     position: absolute;
-    bottom: 50;
+   bottom: 50;
     right: 50;
 }
 .navigation{
