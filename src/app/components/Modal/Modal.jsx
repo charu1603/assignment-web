@@ -16,7 +16,7 @@ import './Modal.css';
           Special discounts available!!
           </p>
           <button className="discountButton">
-            Unlock Price
+            UnlockPrice
           </button>
         </div>
       </div>
@@ -30,9 +30,9 @@ import './Modal.css';
         </div>
 
         <div className="form-group">
-         
+        
           <select id="guest-select" className="guest-select">
-            <option value="">2 guests</option>
+     
             <option value="1">1 Guest</option>
             <option value="2">2 Guests</option>
             <option value="3">3 Guests</option>

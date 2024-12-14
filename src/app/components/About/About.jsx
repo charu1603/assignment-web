@@ -9,6 +9,7 @@ import { IoHome } from "react-icons/io5";
 import { IoBed } from "react-icons/io5";
 import { IoMdPaw } from "react-icons/io";
 import { LuSquareParking } from "react-icons/lu";
+import { FaStar } from "react-icons/fa";
 
 const About = () => {
     const tags=[
@@ -95,7 +96,7 @@ title:"House Rules",
       <div className="aboutHead">
         <div className="aboutHeadLeft">
           <div className="aboutStar">
-            <FaRegStar className="star"/>
+            <FaStar className="star" color="#ffd700"/>
           </div>
           <div className="ratings">4.5/5   | </div>
           <div className="reviews"> 105 reviews</div>
