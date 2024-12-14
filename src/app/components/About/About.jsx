@@ -129,14 +129,18 @@ title:"House Rules",
             The tourist-favourite Bhimtal Lake is only a stones throw away
           </li>
           <li>
-            The tourist-favourite Bhimtal Lake is only a stones throw away. Read
-            more
+            The tourist-favourite Bhimtal Lake is only a stones throw away. <span>Read
+            more</span>
           </li>
         </ul>
         <div className="abouttags">
           {aboutTags.map((item)=>(
             <div className="tagsss" key={item.id}>
-<button className="tagsButton">{item.title}</button>
+  <button
+        className={`tagsButton ${item.id === 1 ? "golden-border" : ""}`}
+      >
+        {item.title}
+      </button>
               </div>
           ))}
         </div>

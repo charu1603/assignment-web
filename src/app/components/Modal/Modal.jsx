@@ -1,6 +1,6 @@
 import {FaCalendarAlt } from 'react-icons/fa';
 import './Modal.css';
-export default function Modal() {
+ function Modal() {
   return (
     <div className="modalRight">
     <div className="modal">
@@ -46,3 +46,4 @@ export default function Modal() {
     </div></div>
   )
 }
+export default Modal;

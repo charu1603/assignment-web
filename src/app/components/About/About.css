@@ -9,6 +9,9 @@
     flex-wrap: wrap;
     gap: 1rem;
 }
+.tagsButton.golden-border {
+    border-color: gold;
+  }
 .tagsButton{
     background-color: black;
     padding: 15px;
@@ -53,6 +56,11 @@ align-items: center;
 .reviews{
     text-decoration: underline;
 }
+.aboutContent li span{
+    color: burlywood;
+    text-decoration: underline;
+}
+
 .aboutHeadRight .likes{
     background-color: #333333;
 padding: 10px;
