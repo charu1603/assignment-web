@@ -1,5 +1,7 @@
 import React from 'react'
+import { IoSearch } from "react-icons/io5";
 import './Header.css'
+import { FaPhone } from "react-icons/fa6";
 import Image from 'next/image';
 import { IoIosSearch } from "react-icons/io";
 const Header = () => {
@@ -10,9 +12,10 @@ const Header = () => {
         height={30}>
         </Image>
         <div className='searchBar'>
-<div className="search-icons">
+<div className="icons">
 <IoIosSearch />
 </div>
+
         <input
                         type="text"
                         placeholder="Search for location, villa, facilities..."
@@ -26,6 +29,7 @@ const Header = () => {
         height={30}></Image>
         </div>
           <div className="number">
+          <FaPhone />
              <p>08069160000</p>
              </div>
           <div className="login"> 

@@ -5,13 +5,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+   
     padding: 0px 8rem;
     position: relative;
 }
 .heading{
+ position: absolute;
+ top: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -22,4 +22,59 @@ font-size: 3rem;
     position: absolute;
     bottom: 50;
     right: 50;
+}
+.navigation{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    gap: 5px;
+   list-style: none;
+}
+.navigation hr{
+    height: 20px;
+}
+.player{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+.player span{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+.navigation ul li{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 100%;
+    text-decoration: none;
+}
+@media (max-width: 500px) {
+.hero{
+    padding: 0rem 2rem;
+}
+.heading{
+    top: 10%;
+
+}
+.preview{
+   
+    bottom: 40;
+    right: 30;
+}
+.navigation{
+    left: 30%;
+}
 }

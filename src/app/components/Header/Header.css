@@ -28,15 +28,7 @@ input::placeholder {
   opacity: 1;
 }
 
-.search-icon {
-  position: absolute;
-  right: 22.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1.2rem;
-  height: 1.2rem;
-  color: var(--text-color);
-}
+
 
 .loginbutton {
   background-color: white;
@@ -78,7 +70,7 @@ input::placeholder {
 
   .content,
   .number,
-  .searchBar{
+  .input{
     display: none;
   }
   .loginbutton {
@@ -88,11 +80,16 @@ input::placeholder {
   .logo {
     display: block;
   }
-
+.icons{
+ 
+  color: white;
+  font-size: 25px;
+}
   .search-icons {
-    position: relative;
+    background-color: aliceblue;
+    color: aliceblue;
+   position: relative;
     right: 0;
-    transform: none;
-    margin-left: auto;
+ 
   }
 }

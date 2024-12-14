@@ -57,7 +57,9 @@
     color: #888;
     font-size: 12px;
   }
-  
+  .socials{
+    display: flex;
+  }
   .social{
     height: 30px;
     width: 30px;
@@ -72,3 +74,9 @@
     gap: 2rem;
   }
   
+  @media (max-width: 500px) {
+.footerEnd{
+  padding: 10px;
+}
+
+  }

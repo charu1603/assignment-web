@@ -7,13 +7,11 @@
     display: flex;
     gap: 1.5rem;
     justify-content: center;
-    flex-wrap: wrap;
+
   }
   
-  /* Card styling */
+
   .roomcard {
-    overflow: hidden;
-    height: max-content;
     background-color: #333;
     border-radius: 8px;
     overflow: hidden;
@@ -21,9 +19,7 @@
     width: calc(33.33% - 1rem);
     max-width: 300px;
     flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem; 
+  
   }
 
   .roomcardImage {
@@ -33,10 +29,10 @@
     padding: 0;
   }
   
-  .roomcardImage img {
+  .roomcard img {
     object-fit: cover;
     width: 100%; 
-    height: 100%;
+    height: 45%;
     display: block;
   }
   
@@ -47,6 +43,8 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    gap: 12;
+    font-size: 14px;
   }
 
   @media (max-width: 850px) {
@@ -58,6 +56,13 @@
   @media (max-width: 500px) {
     .roomcard {
       width: 100%;
+    }
+    .RoomflexCards{
+      gap: 0.5rem;
+    }
+    .RoomcardContent{
+      font-size: 8px;
+      padding: 0.5rem;
     }
   }
   

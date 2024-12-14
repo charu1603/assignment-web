@@ -1,3 +1,4 @@
+"use Client"
 import React from "react";
 import "./About.css";
 import { FaRegStar } from "react-icons/fa";
@@ -69,6 +70,26 @@ const About = () => {
 
         }
     ]
+    const aboutTags = [
+      {
+id:"1",
+title:"House Rules",
+      },
+      {
+        id:"2",
+        title:"Cancellation policy",
+              },
+              {
+                id:"3",
+                title:"Things you need to know",
+                      },
+                      {
+                        id:"4",
+                        title:"Things to do ",
+                              },
+                             
+                           
+    ]
   return (
     <div className="About">
       <div className="aboutHead">
@@ -112,6 +133,13 @@ const About = () => {
             more
           </li>
         </ul>
+        <div className="abouttags">
+          {aboutTags.map((item)=>(
+            <div className="tagsss" key={item.id}>
+<button className="tagsButton">{item.title}</button>
+              </div>
+          ))}
+        </div>
       </div>
       <div className="aboutAmenities">
         <h2>Amenities</h2>

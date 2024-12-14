@@ -38,8 +38,8 @@ const RoomCards = () => {
               />
         
             <div className="RoomcardContent">
-              <span>{item.paragraph}</span>
-              <span>{item.date}</span>
+              <span>●  {item.paragraph}</span>
+              <span>● The tourist-favourite Bhimtal Lake is only a stone’s throw away.</span>
             </div>
           </div>
         ))}

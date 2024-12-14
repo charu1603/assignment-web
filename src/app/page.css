@@ -5,6 +5,7 @@
   justify-content: space-between;
   color: white;
   gap: 3rem;
+
 }
 
 .leftContent {
@@ -18,16 +19,15 @@
   width: 35%;
 }
 
-/* Responsive styles for screens smaller than 850px */
 @media (max-width: 850px) {
   .rightContent {
-    display: none; /* Hide modal section */
+    display: none;
   }
 .mainContent{
-  padding: 0rem;
+  padding: 8px;
 }
   .leftContent {
-    padding: 10px;
-    width: 100%; /* Expand the leftContent to full width */
+    padding: 0px;
+    width: 100%;
   }
 }

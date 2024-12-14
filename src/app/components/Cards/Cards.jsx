@@ -29,8 +29,8 @@ function Cards() {
           <div className="card" key={item.id}>
             <Image src="/images/cards.png" alt={`Card ${item.name}`} width={240} height={400} />
             <div className="cardContent">
-            <p>{item.name}</p>
-            <p>{item.date}</p>
+            <span>{item.name} ● {item.date}</span>
+         
             </div>
          
           </div>
