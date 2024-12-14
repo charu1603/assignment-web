@@ -20,8 +20,8 @@ font-size: 3rem;
 }
 .preview img{
     position: absolute;
-   bottom: 50;
-    right: 50;
+   bottom: 50px;
+    right: 50px;
 }
 .navigation{
     position: absolute;
@@ -71,8 +71,8 @@ font-size: 3rem;
 }
 .preview{
    
-    bottom: 40;
-    right: 30;
+    bottom: 40px;
+    right: 30px;
 }
 .navigation{
     left: 30%;
